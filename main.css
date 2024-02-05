@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    font-family:'bungee', sans-serif;
+}
+
+header h1{
+    font-weight: normal;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(71, 77, 67);
+    color: #ecf0f1;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.brands-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.brands-list li {
+    border: 1px solid #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.h22 {
+    color: #333;
+}
+
+body {
+    background: linear-gradient(black, #064d19);
+    background-repeat: no-repeat;
+}
+
+section p{
+    color: #3abd5d;
+}
+
+section .h22{
+    color: #3abd5d;
+}
+
+.instagram{
+    height: 24px;
+}
+
+.youtube{
+    height: 24px;
+}
+
+.twitter{
+    height: 24px;
+}
+
+.midias li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.midias li a{
+    text-decoration:none;
+}
+
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color:#333;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #5e4f4f;
+}
+
+textarea:focus{
+    outline-color:#333;
+}
+
+footer{
+    background-color:#ecf0f1 ;
+    padding: 16px 0;
+}
+
+section h3{
+    color: #3abd5d;
+}
+
+
+
+
+
+
+
+
